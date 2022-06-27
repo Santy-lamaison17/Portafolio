@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	background-color: #fff;
+	color: #1A237E;
+}
+
+a,i{
+	color: #1A237E;
+    text-decoration: none;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease
+}
+
+h2{
+	font-weight: 600;
+}
+
+/*----- header -------*/
+
+.Header{
+	padding: 1.5rem 0;
+}
+
+.HeaderRedes{}
+.HeaderRedes a{
+	margin-right: 1rem;
+}
+.HeaderRedes a > i{
+	font-size: 30px;
+}
+
+.Nav{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.Nav a{
+	padding: 0 20px;
+    font-weight: 600;
+}
+
+/* ------ Hero -------*/
+
+.Hero{
+	height: calc(100vh - 81px);
+}
+
+.BoxPresentacion{
+	margin: 0 auto;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10%;
+}
+.BoxPresentacion .Name{
+	font-size: 4rem;
+    font-weight: 700;
+    line-height: 1.2;
+    display: flex;
+    flex-direction: column;
+}
+.BoxPresentacion .Name span:last-child{
+	font-size: 2rem;
+	color: #78909C;
+}
+/*.BoxPresentacion .Name h1{}*/
+.BoxPresentacion .BtnDescargar{
+	background-color: #FFC107;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 600;
+    border: 1px solid #FFC107;
+    margin-top: 2rem;
+}
+.BoxPresentacion .BtnDescargar:hover {
+	background-color: rgba(255, 193, 7, 0.5);
+	color: #1A237E;
+}
+/* ------- Acerca de --------*/
+
+.AcercaDe{
+	padding: 5rem 0;
+	background-color: #e8faff;
+}
+
+.BoxItems{}
+.BoxItems .Opcion{
+	text-align: center;
+    display: flex;
+    background-color: #E3F2FD;
+    border-radius: 10px;
+}
+.BoxItems .Opcion:hover {
+	border: 1px solid #1A237E;
+}
+
+.BoxItems .Opcion a{
+	padding: 2rem 4rem;
+    width: 100%;
+    font-weight: 600;
+}
+
+.BoxInfo{
+	padding: 3rem;
+    padding-top: 0;
+}
+.BoxInfo .BoxText{}
+.BoxInfo .BoxText p{}
+.BoxInfo .BoxSkills{
+	display: flex;
+    justify-content: center;
+    column-gap: 30px;
+}
+.BoxInfo .BoxSkills .List{
+	list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.BoxInfo .BoxSkills .List li{
+	margin-bottom: 1rem;
+}
+
+
+/*----- Contacto -------*/
+
+.Contacto{
+	padding: 3rem 0;
+}
+
+.BoxContacto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.Card {
+    background-color: #E3F2FD;
+    padding: 10px 20px 0;
+    border-radius: 10px;
+    width: 275px;
+}
+
+/*----- Footer -------*/
+
+footer{
+	padding: 2rem 0;
+    border-top: 1px solid #1A237E;
+}
